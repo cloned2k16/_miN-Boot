@@ -5,7 +5,7 @@ var _log        // define this to get some log message!!
     var  info   =   {
                         name        :   '_onDocReady'
                     ,   desc        :   'handles document ready state'
-                    ,   version     :   '0.0.1'
+                    ,   version     :   '0.0.3'
                 }
     ,   D       =   document
     ,   DOMCL   =   'DOMContentLoaded'
@@ -77,7 +77,7 @@ var _log        // define this to get some log message!!
     ,
     onReady =   function    onReady (callBack)  { 
         var a    =  queue   
-        ,   exec =  function () { init(); while (a.length) a.pop()(); }
+        ,   exec =  function () { init(); while (a.length) a.shift()(); }
         if (!a.length) bind(exec);
         a.push(callBack);
     }
