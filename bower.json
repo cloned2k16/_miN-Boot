@@ -1,0 +1,54 @@
+{
+        "name"              : "doc_ready"
+    ,   "version"           : "0.0.1"
+    ,   "description"       : "A minimal boot up library for most popular browsers"
+    ,   "main"              : "index.js"
+    ,   "scripts"           :   {
+                                    "test": "tape test.js"
+                            }
+    ,   "repository"        :   {
+                                    "type": "git"
+                                ,   "url": "git+https://github.com/cloned2k16/_miN-Boot.git"
+                            }
+    ,   "keywords":         [
+                                    "DOM"
+                                ,   "ready"
+                                ,   "onLoad"
+                                ,   "onReady"
+                                ,   "DOMContentLoaded"
+                                ,   "onReadyStateChange"
+                                ,   "state"
+                                ,   "HTML"
+                                ,   "require"
+                            ]
+    ,   "author"            :   "Paolo Lioy"
+    ,   "license"           :   "CC0-1.0"
+    ,   "bugs"              :   {
+                                    "url": "https://github.com/cloned2k16/_miN-Boot/issues"
+                            }
+    ,   "homepage"          :       "https://github.com/cloned2k16/_miN-Boot#readme"
+    ,   "dependencies"      :   {
+                                    "string_prototypes"
+                                ,   "w4it"    
+                            }
+    ,   "devDependencies"   :   {
+                                    "tape"  :   "~4.5.1"
+                            }
+    ,   "moduleType"        :   [
+        
+                                "globals"
+                            ,   "node"
+                            ]
+    ,   "ignore"            :   [
+                                "**/.*"
+                            ,   "node_modules"
+                            ,   "bower_components"
+                            ,   "test"
+                            ,   "testE2E"
+                            ,   ".gitignore"
+                            ,   ".travis.yml"
+                            ,   "package.json"
+                            ,   "index.html"
+                            ,   "test.js"  
+                            ]
+}
